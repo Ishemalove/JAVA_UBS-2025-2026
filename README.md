@@ -60,17 +60,4 @@ password: Admin@123!
 - Tariff `effectiveFrom` must be sent as a string in `YYYY-MM` format, for example `"2026-07"`, not as an object.
 - See `docs/ERD.md` and `docs/FLOW.md` for the required diagrams.
 
-## Tariff Example
 
-```json
-{
-  "meterType": "WATER",
-  "mode": "FLAT",
-  "effectiveFrom": "2026-07",
-  "flatRate": 500,
-  "fixedCharge": 1000,
-  "taxRate": 18,
-  "latePenaltyRate": 2,
-  "tiers": []
-}
-```
